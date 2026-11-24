@@ -42,11 +42,13 @@ Genèse du SEDA 2.4
 
 Les nouveautés par rapport à la version 2.3 :
 
-La version 2.4 du SEDA vise à optimiser la préservation des documents audiovisuels (audio et vidéo) nativement numériques ou numérisés. 
+La version 2.4 du SEDA vise à optimiser la préservation des **documents audiovisuels** (audio et vidéo) nativement numériques ou numérisés. 
 
-Cette nouvelle version se limite à l’ajout de nouveaux éléments facultatifs à l’ontologie SEDA. 
+Cette nouvelle version se limite à **l’ajout** de nouveaux éléments **facultatifs** à l’ontologie SEDA. 
 
-A l’exception de la nouvelle extension générique sur les objets physiques, ils sont exclusivement dédiés aux binaires audiovisuels.
+**A l’exception de la nouvelle extension générique sur les objets physiques, ils sont exclusivement dédiés aux binaires audiovisuels.**
+
+
 Il s’agit :
 
 * De disposer d’une zone pour déclarer les référentiels de formats audiovisuels.
