@@ -59,7 +59,7 @@ Il s’agit :
 
 * D’être capable de décrire la chronologie interne des documents.
 
-
+.. image:: /doc/img/IMG_00.png
 	
 
 Note de version (changelog)
@@ -80,7 +80,7 @@ Les principaux changements **par rapport à la version 2.3** sont :
 * Ajout d'un point d'extension générique, sur le modèle de celui des objets numériques.
 
 
-
+.. image:: /doc/img/IMG_01.png
 
 
 Schémas XML
