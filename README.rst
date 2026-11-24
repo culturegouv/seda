@@ -99,7 +99,7 @@ Documentation générale
 
 * `SEDA 2.4 | Dictionnaire des nouvelles balises <https://raw.githubusercontent.com/culturecommunication/seda/seda-2.4/doc/SEDA_v2.4_dictionnaire_fonctionnel_nouvelles_balises.xlsx>`_
 
-
+* `SEDA 2.4 | Un manifeste XML d'exemple <https://raw.githubusercontent.com/culturecommunication/seda/seda-2.4/doc/SEDA_v2.4_manifeste_exemple.xml>`_
 
 
 Documentation technique
@@ -107,9 +107,9 @@ Documentation technique
 
 * `SEDA 2.4 | Documentation HTML des schémas XML <https://github.com/culturegouv/seda/raw/refs/heads/seda-2.4/doc/SEDA_v2.4_dictionnaire_technique_XSD.zip>`_ ``[ZIP à télécharger]``
 
-* `SEDA 2.4 | Diagrammes SVG des schémas XML </doc/seda-2.4-XML-schema_documentation_SVG.zip>`_  ``[ZIP à télécharger][Bientôt]```
+* `SEDA 2.4 | Diagrammes SVG des schémas XML`_  ``[Bientôt]```
 
-* `SEDA 2.4 | Consulter la documentation technique en ligne <https://francearchives.gouv.fr/seda/2.4/>`_ ``[Bientôt]``
+* `SEDA 2.4 | Consulter la documentation technique en ligne`_ ``[Bientôt]``
 
 
 
