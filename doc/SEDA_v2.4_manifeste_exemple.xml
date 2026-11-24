@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArchiveTransfer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="fr:gouv:culture:archivesdefrance:seda:v2.4 Schema/xsd1_novembre/seda-2.4-main.xsd"
+    xmlns="fr:gouv:culture:archivesdefrance:seda:v2.4">
+    <Date>2026-05-21T18:40:01.264</Date>
+    <MessageIdentifier>Mint1</MessageIdentifier>
+    <ArchivalAgreement>Agree</ArchivalAgreement>
+    <CodeListVersions>
+        <ReplyCodeListVersion>ReplyCodeListVersion0</ReplyCodeListVersion>
+        <MessageDigestAlgorithmCodeListVersion>MessageDigestAlgorithmCodeListVersion0</MessageDigestAlgorithmCodeListVersion>
+        <MimeTypeCodeListVersion>MimeTypeCodeListVersion0</MimeTypeCodeListVersion>
+        <EncodingCodeListVersion>EncodingCodeListVersion0</EncodingCodeListVersion>
+        <FileFormatCodeListVersion>FileFormatCodeListVersion0</FileFormatCodeListVersion>
+        <CompressionAlgorithmCodeListVersion>CompressionAlgorithmCodeListVersion0</CompressionAlgorithmCodeListVersion>
+        <DataObjectVersionCodeListVersion>DataObjectVersionCodeListVersion0</DataObjectVersionCodeListVersion>
+        <!-- Nouveaux codes listes -->
+        <AudiovisualContainerFormatCodeListVersion>AudiovisualContainerFormatCodeListVersion0</AudiovisualContainerFormatCodeListVersion>
+        <AudiovisualAudioCodecCodeListVersion>AudiovisualAudioCodecCodeListVersion0</AudiovisualAudioCodecCodeListVersion>
+        <AudiovisualVideoCodecCodeListVersion>AudiovisualVideoCodecCodeListVersion0</AudiovisualVideoCodecCodeListVersion>
+        <!-- Fin nouveaux codes -->
+        <StorageRuleCodeListVersion>StorageRuleCodeListVersion0</StorageRuleCodeListVersion>
+        <AppraisalRuleCodeListVersion>AppraisalRuleCodeListVersion0</AppraisalRuleCodeListVersion>
+        <AccessRuleCodeListVersion>AccessRuleCodeListVersion0</AccessRuleCodeListVersion>
+        <DisseminationRuleCodeListVersion>DisseminationRuleCodeListVersion0</DisseminationRuleCodeListVersion>
+        <ReuseRuleCodeListVersion>ReuseRuleCodeListVersion0</ReuseRuleCodeListVersion>
+        <ClassificationRuleCodeListVersion>ClassificationRuleCodeListVersion0</ClassificationRuleCodeListVersion>
+        <AuthorizationReasonCodeListVersion>AuthorizationReasonCodeListVersion0</AuthorizationReasonCodeListVersion>
+        <RelationshipCodeListVersion>RelationshipCodeListVersion0</RelationshipCodeListVersion>
+    </CodeListVersions>
+    <DataObjectPackage>
+        <DataObjectGroup id="ID1">
+            <PhysicalDataObject id="Id01">
+                <PhysicalDimensions>
+                    <Diameter unit="4H">554</Diameter>
+                </PhysicalDimensions>
+                <OtherMetadata>
+                    <mintika:TestPhysical xmlns:mintika="urn:mintika:test:1.0"/>
+                </OtherMetadata>                
+            </PhysicalDataObject>
+            <BinaryDataObject id="ID2">
+                <DataObjectVersion>BinaryMaster_1</DataObjectVersion>
+                <Uri>content/ID11.mkv</Uri>
+                <MessageDigest algorithm="SHA-512"
+                    >613f1f00ce4078e1d10a290a285d2d686bc2f5d26a0da6a1aa190d0f830962c355f0a15b179933b560afca268346cf891c50ae968c1c6765e07539b4ad7ac3b3</MessageDigest>
+                <Size>6203499454</Size>
+                <FormatIdentification>
+                    <FormatLitteral>Matroska</FormatLitteral>
+                    <FormatId>fmt/569</FormatId>
+                </FormatIdentification>
+                <FileInfo>
+                    <Filename>A1_t00.mkv</Filename>
+                    <LastModified>2025-11-26T16:10:55.047331Z</LastModified>
+                </FileInfo>
+                <Metadata>
+                    <Video>
+                        <VideoMetadata>
+                            <!-- Container : track type="General" -->
+                            <ContainerInfo>
+                                <Format>
+                                    <FormatCode>mkv</FormatCode>
+                                    <FormatName>Matroska</FormatName>
+                                </Format>
+                                <Duration>PT1H45M2.440S</Duration>
+                                <BitRate>7874410</BitRate>
+                            </ContainerInfo>
+                            <VideoStream>
+                                <StreamNumber>0</StreamNumber>
+                                <ShortName>1</ShortName>
+                                <Format>
+                                    <FormatCode>V_MPEG2</FormatCode>
+                                    <FormatName>MPEG Video</FormatName>
+                                    <FormatLongName>MPEG Video version 2 / Main Profile / Main
+                                        Level</FormatLongName>
+                                </Format>
+                                <BitRate>6460307</BitRate>
+                                <Duration>PT1H45M2.440S</Duration>
+                                <StreamLanguage>en</StreamLanguage>
+                                <BitRateMode>VBR</BitRateMode>
+                                <BitDepth>8</BitDepth>
+                                <CompressionMode>Lossy</CompressionMode>
+                                <FrameRate>25.000</FrameRate>
+                                <PixelWidth>720</PixelWidth>
+                                <PixelHeight>576</PixelHeight>
+                                <PixelAspectRatio>1.422</PixelAspectRatio>
+                                <DisplayAspectRatio>1.778</DisplayAspectRatio>
+                                <ColorSpace>YUV</ColorSpace>
+                                <ChromaSubsampling>4:2:0</ChromaSubsampling>
+                                <ScanType>Interlaced</ScanType>
+                            </VideoStream>
+                            <!-- Piste audio 1 : track type="Audio"  -->
+                            <AudioStream>
+                                <StreamNumber>1</StreamNumber>
+                                <ShortName>2</ShortName>
+                                <Format>
+                                    <FormatCode>A_AC3</FormatCode>
+                                    <FormatName>AC-3</FormatName>
+                                    <FormatLongName>Dolby Digital</FormatLongName>
+                                </Format>
+                                <Duration>PT1H45M2.432S</Duration>
+                                <BitRate>384000</BitRate>
+                                <StreamLanguage>en</StreamLanguage>
+                                <BitRateMode>CBR</BitRateMode>
+                                <!--<BitDepth/>-->
+                                <CompressionMode>Lossy</CompressionMode>
+                                <SamplingRate>48000</SamplingRate>
+                                <Channels>6</Channels>
+                            </AudioStream>
+                            <!-- Piste audio 2 : track type="Audio" typeorder="2" (DE stéréo) -->
+                            <AudioStream>
+                                <StreamNumber>2</StreamNumber>
+                                <ShortName>3</ShortName>
+                                <Format>
+                                    <FormatCode>A_AC3</FormatCode>
+                                    <FormatName>AC-3</FormatName>
+                                    <FormatLongName>Dolby Digital / Dolby Surround</FormatLongName>
+                                </Format>
+                                <Duration>PT1H45M2.432S</Duration>
+                                <BitRate>192000</BitRate>
+                                <StreamLanguage>de</StreamLanguage>
+                                <BitRateMode>CBR</BitRateMode>
+                                <!--<BitDepth/>-->
+                                <CompressionMode>Lossy</CompressionMode>
+                                <SamplingRate>48000</SamplingRate>
+                                <Channels>2</Channels>
+                            </AudioStream>
+                            <!-- Piste audio 3 : track type="Audio" typeorder="3" (FR 5.1)   -->
+                            <AudioStream>
+                                <StreamNumber>3</StreamNumber>
+                                <ShortName>4</ShortName>
+                                <Format>
+                                    <FormatCode>A_AC3</FormatCode>
+                                    <FormatName>AC-3</FormatName>
+                                    <FormatLongName>Dolby Digital</FormatLongName>
+                                </Format>
+                                <Duration>PT1H45M2.432S</Duration>
+                                <BitRate>384000</BitRate>
+                                <StreamLanguage>fr</StreamLanguage>
+                                <BitRateMode>CBR</BitRateMode>
+                                <!--<BitDepth/>-->
+                                <CompressionMode>Lossy</CompressionMode>
+                                <SamplingRate>48000</SamplingRate>
+                                <Channels>6</Channels>
+                            </AudioStream>
+                        </VideoMetadata>
+                        <mintika:VideoExtension xmlns:mintika="urn:mintika:seda:extension:1.0">
+                            <mintika:HDRFormat>HDR10</mintika:HDRFormat>
+                            <mintika:MasteringDisplay>P3-D65</mintika:MasteringDisplay>
+                        </mintika:VideoExtension>
+                    </Video>
+                </Metadata>
+            </BinaryDataObject>
+        </DataObjectGroup>
+        <DescriptiveMetadata>
+            <ArchiveUnit id="ID3">
+                <Content>
+                    <DescriptionLevel>Item</DescriptionLevel>
+                    <Title>Le cavalier sans tête</Title>
+                    <CreditLine>S. Welfringer et S. Dubouloz</CreditLine>
+                    <Segments>
+                        <SegmentsTitle>Chapitrage</SegmentsTitle>
+                        <SegmentsDescription>Description du chapitrage</SegmentsDescription>
+                        <Segment>
+                            <SegmentTitle>Chapitre 1</SegmentTitle>
+                            <SegmentDescription>Description du chapitre</SegmentDescription>
+                            <StartTime>00:01:10</StartTime>
+                            <EndTime>45:08:23</EndTime>
+                            <ReadingDuration xml:lang="fr">environ 22 minutes</ReadingDuration>
+                        </Segment>
+                    </Segments>
+                </Content>
+                <DataObjectReference>
+                    <DataObjectGroupReferenceId>ID2</DataObjectGroupReferenceId>
+                </DataObjectReference>
+            </ArchiveUnit>
+        </DescriptiveMetadata>
+        <ManagementMetadata/>
+    </DataObjectPackage>
+    <ArchivalAgency>
+        <Identifier>Identifier0</Identifier>
+    </ArchivalAgency>
+    <TransferringAgency>
+        <Identifier>Identifier4</Identifier>
+    </TransferringAgency>
+</ArchiveTransfer>
