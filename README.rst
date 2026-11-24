@@ -137,6 +137,5 @@ Outils génériques
 Téléchargement
 ===================================
 
-`Télécharger l'ensemble du SEDA 2.3 <../../releases/tag/seda_v2.3/>`_ (schémas XML et documentation) ``[Bientôt]``
-
+`Télécharger l'ensemble du SEDA 2.3 <../../releases/tag/seda_v2.3/>`_ (schémas XML et documentation)
 
